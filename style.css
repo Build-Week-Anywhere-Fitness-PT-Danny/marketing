@@ -48,9 +48,58 @@ table {
 }
 
 html {
-    font-size: 62.5%;
+	font-size: 62.5%;
+	
 }
 
 header {
-    text-align: center;
+	text-align: center;
+	background-color: RGB(30, 168, 150);
+}
+
+img {
+	border: 1px solid RGB(76, 84, 84);
+    margin-top: 10%;
+	margin-bottom: 3%;
+	width: 80%;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+
+a {
+	margin-bottom: 10%;
+}
+
+p {
+    font-size: 2rem;
+    margin-top: 5%;
+}
+
+button {
+	width: 95%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 8px;
+	font-size: 1.6rem;
+}
+
+button:hover {
+	background-color: RGB(255, 113, 91);
+}
+
+section {
+	text-align: center;
+	margin: 20%;
+}
+
+section p {
+	margin-bottom: 100px;
 }
