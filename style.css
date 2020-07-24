@@ -105,7 +105,11 @@ button.sign-up {
 
 section {
 	text-align: center;
-	margin: 10% 20%;
+	margin: 10% 15%;
+}
+
+#class-img {
+	width: 100%;
 }
 
 section p {
