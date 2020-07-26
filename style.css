@@ -55,18 +55,35 @@ html {
 
 header {
 	text-align: center;
-	background-color: RGB(30, 168, 150);
+	background-color: RGB(76, 84, 84);
 }
 
 img {
-	border: 1px solid RGB(76, 84, 84);
+	border: 5px solid RGB(30, 168, 150);
     margin-top: 10%;
 	margin-bottom: 3%;
 	width: 80%;
 }
 
+#class-image {
+	width: 100%;
+}
+
+img:hover {
+	border-color: RGB(255, 113, 91);
+}
+
 h1 {
 	font-size: 3rem;
+	color: RGB(255, 113, 91)
+}
+
+h1:hover {
+	color: RGB(30, 168, 150);
+}
+
+header p {
+	color: white;
 }
 
 .flex-container {
@@ -80,8 +97,8 @@ a {
 }
 
 p {
-    font-size: 2rem;
-    margin-top: 5%;
+	font-size: 2rem;
+	margin-top: 5%;
 }
 
 button {
@@ -94,22 +111,18 @@ button {
 }
 
 button.nav-button:hover {
-	background-color: RGBA(76, 84, 84, 0.8);
+	background-color: RGBA(30, 168, 150);
 	color: white;
 }
 
 button.sign-up {
-	background-color: RGBA(255, 113, 91, 0.9);
+	background-color: RGB(255, 113, 91);
 }
 
 
 section {
 	text-align: center;
 	margin: 10% 15%;
-}
-
-#class-img {
-	width: 100%;
 }
 
 section p {
@@ -122,7 +135,83 @@ footer {
 	color: RGBA(255, 113, 91, 0.75)
 }
 
+i:hover {
+	color: RGB(30, 168, 150);
+}
+
 .flex-container2 {
 	display: flex;
 	justify-content: space-evenly;
+}
+
+@media (min-width: 800px) {
+
+	header {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	header img {
+		width: 40%;
+		margin: 10% 5% 0 0;
+	
+	}
+
+	header section {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin: 15% 0 0 0;
+		text-align: end;
+
+	}
+
+	.flex-container {
+		display: flex;
+		flex-direction: row;
+		align-items: space-between;
+		justify-content: space-between;
+	}
+
+	h1 {
+		margin: 0 10% 0 0;
+		font-size: 4rem;
+	}
+
+	section p {
+		margin: 3% 10% 0 0;
+		font-size: 2.5rem;
+	}
+
+	nav {
+		width: 80%;
+		margin-top: 0;
+	}
+
+	nav button {
+		width: 100px;
+	}
+
+	.inline-container {
+		margin-left: 5%;
+		width: 90%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	section img {
+		width: 35%;
+	}
+
+	#class-image {
+		width: 50%;
+	}
+
+	.inline-container p {
+		margin: 5%;
+		width: 50%;
+	}
 }
