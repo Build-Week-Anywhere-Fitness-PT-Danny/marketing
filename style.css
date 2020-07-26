@@ -215,3 +215,21 @@ i:hover {
 		width: 50%;
 	}
 }
+
+@media (min-width: 1000px) {
+	header img {
+		margin-top: 6%;
+	}
+
+	h1 {
+		font-size: 5rem;
+	}
+
+	header p {
+		font-size: 3rem;
+	}
+
+	p {
+		line-height: 3rem;
+	}
+}
