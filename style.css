@@ -160,6 +160,13 @@ i:hover {
 	
 	}
 
+	#logoImage {
+		width: 60%;
+		align-self: center;
+		margin-right: -20%;
+		margin-bottom: -10%;
+	}
+
 	header section {
 		display: flex;
 		flex-direction: column;
@@ -178,7 +185,7 @@ i:hover {
 
 	h1 {
 		margin: 0 10% 0 0%;
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 
 	section p {
